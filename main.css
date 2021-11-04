@@ -1,0 +1,138 @@
+body {
+  height: 800px;
+}
+.title {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.main-bar {
+  width: 150px;
+  color: white;
+  margin-top: 35px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-bar_main {
+  text-decoration: none;
+  color: white;
+}
+
+.main-bar_main:hover {
+  color: rgb(83, 182, 91);
+}
+
+.main-bar_description:hover {
+  color: rgb(83, 182, 91);
+}
+
+.main-bar_description {
+  text-decoration: none;
+  color: white;
+}
+
+.choose {
+  display: flex;
+  justify-content: center;
+}
+
+.choose input {
+  border: none;
+}
+
+.choose input[type="submit"] {
+  background-color: rgb(67, 148, 74);
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0px 15px;
+  border-radius: 10px;
+}
+
+.choose input[type="submit"]:active {
+  background-color: rgb(54, 117, 60);
+}
+
+.choose input[type="text"] {
+  background-color: rgb(66, 66, 66);
+  padding: 10px 150px;
+  font-size: 20px;
+  border: 1px solid rgb(31, 31, 31);
+  border-radius: 30px;
+  font-weight: bold;
+}
+.choose input[type="text"]:focus {
+  background-color: rgb(61, 61, 61);
+  border: 1px solid rgba(108, 209, 104, 0.507);
+}
+
+.choose :first-child {
+  margin-right: 20px;
+}
+
+.let {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.site {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Netflix {
+  width: 80px;
+  margin: 35px;
+}
+
+.Netflix:hover {
+  border: 1px solid rgb(83, 182, 91);
+  border-radius: 8px;
+}
+
+.Watcha {
+  border-radius: 6px;
+  width: 73px;
+  margin: 38px;
+}
+
+.Watcha:hover {
+  border: 1px solid rgb(83, 182, 91);
+  border-radius: 8px;
+}
+
+.Tving {
+  width: 72px;
+  border-radius: 6px;
+  margin: 38px;
+}
+
+.Tving:hover {
+  border: 1px solid rgb(83, 182, 91);
+  border-radius: 8px;
+}
+
+.Wave {
+  width: 73px;
+  border-radius: 5px;
+  margin: 38px;
+}
+
+.Wave:hover {
+  border: 1px solid rgb(83, 182, 91);
+  border-radius: 8px;
+}
+
+.choose_text {
+  color: white;
+}

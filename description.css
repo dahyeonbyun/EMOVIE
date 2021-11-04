@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+}
+
+.Gpt {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Openai {
+  margin-top: 150px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Gpt_Openai {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.small_Gpt {
+  font-size: 17px;
+  font-weight: lighter;
+  padding-bottom: 5px;
+  color: rgb(138, 138, 138);
+  text-decoration: none;
+}
+
+.small_Gpt:hover {
+  color: rgb(206, 206, 206);
+}
+
+.small_Openai:hover {
+  color: rgb(206, 206, 206);
+}
+.small_Openai {
+  font-size: 17px;
+  font-weight: lighter;
+  color: rgb(138, 138, 138);
+  text-decoration: none;
+}
+
+.text-1 {
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 60px;
+  padding-right: 190px;
+}
+
+.text-2 {
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 60px;
+  padding-right: 190px;
+}

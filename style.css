@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "main.css";
+@import "description.css";
+
+body {
+  background-color: rgb(46, 46, 46);
+}
